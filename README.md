@@ -58,3 +58,7 @@ And the view:
 Add to your app module:
 
     angular.module('myApp', ['ns.simple-resource']);
+
+and to your html:
+
+    <script src="bower_components/simple-resource/src/simple-resource.js"></script>
