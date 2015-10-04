@@ -1,0 +1,29 @@
+{
+  "name": "simple-resource",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nschurmann/simple-resource.git"
+  },
+  "dependencies": {
+    "karma": "^0.13.10",
+    "karma-phantomjs-launcher": "^0.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.1.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-spec-reporter": "0.0.20",
+    "phantomjs": "^1.9.18"
+
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
+}

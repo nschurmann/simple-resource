@@ -1,0 +1,27 @@
+{
+  "name": "simple-resource",
+  "version": "0.1",
+  "homepage": "https://github.com/nschurmann/simple-resource",
+  "authors": [
+    "Nicolas Schurmann <nicolas.schurmann@gmail.com>"
+  ],
+  "description": "Add a layer on top of ng-resource. Simplify implementation adding meta attributes to services.",
+  "main": "src/simple-resource.js",
+  "moduleType": [],
+  "keywords": [
+    "resource",
+    "simplify",
+    "wrap",
+    "crud"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.4.7",
+    "angular": "~1.4.7"
+  }
+}
