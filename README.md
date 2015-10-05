@@ -31,14 +31,14 @@ All 4 methods return promises.
 
 This implementation will add 3 properties to MyService:
 
-- Loading
-- List
-- Element
+- loading
+- list
+- element
 
-**Loading** is a boolean that will change it status every time that is trying to reach the server to true.
+**loading** is a boolean that will change it status every time that is trying to reach the server to true.
 By default is always false.
 
-**List** contains an array of all the queryed objects with the cget method. You can iterate them like:
+**list** contains an array of all the queryed objects with the cget method. You can iterate them like:
 
     function MyController ($scope, myService) {
       myService.cget();
@@ -53,6 +53,8 @@ And the view:
     <div ng-repeat="item in myService.list">
       {{ item.property }}
     </div>
+
+**element** contains an object that was retreived by the get method.
 
 
 Add to your app module:
